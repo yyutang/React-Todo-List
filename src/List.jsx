@@ -20,8 +20,8 @@ export default function List({items, deleteItem, clearItem, editItem}){
                     key={item.id}>
                     <span>{item.text}</span>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button className="btn btn-primary me-md-2" type="button" onClick={()=>deleteItem(item)}>Delete</button>
-                    <button className="btn btn-primary" type="button" onClick={()=>editItem(item)}>Edit</button>
+                    <button className="btn btn-danger me-md-2" type="button" onClick={()=>deleteItem(item)}>Delete</button>
+                    <button className="btn btn-warning" type="button" onClick={()=>editItem(item)}>Edit</button>
                     </div>
                 </li>
                 )
