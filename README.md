@@ -1,8 +1,8 @@
-#React todo list 
+# React todo list 
 
 ## Overview
 This Todo List project is built based on React, and CSS using Bootstrap to make everything looks better. The app allows users to add, delete, edit and clear todo items.
-[![](img)](https://github.com/yyutang/React-Todo-List/blob/main/img/readme.png)
+![Alt text](https://github.com/yyutang/React-Todo-List/blob/main/img/readme.png)
 
 ## Getting Start
 #### Prerequisites
@@ -19,7 +19,7 @@ npm start
 - Or you can clone this repo to start
 (Quickly start react projects without all the unnecessary files): https://github.com/alphariaz61/react-starter
 
-##Code Structure
+## Code Structure
 - main files(src/):
 	- App.jsx: The root component of the app, manages the state of the todo list.
 	- List.jsx: A component that represents a single todo item in a list
